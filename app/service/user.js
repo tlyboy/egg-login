@@ -3,9 +3,8 @@
 const Service = require('egg').Service
 
 class UserService extends Service {
-  async login() {
+  async login(userName, password) {
     const { ctx, app } = this
-    const { userName, password } = ctx.request.body
 
     if (!userName || !password) {
       return {
@@ -40,9 +39,8 @@ class UserService extends Service {
     }
   }
 
-  async register() {
+  async register(userName, password, email) {
     const { ctx, app } = this
-    const { userName, password, email } = ctx.request.body
 
     if (!userName || !password || !email) {
       return {
