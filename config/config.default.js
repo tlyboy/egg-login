@@ -23,6 +23,12 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   }
 
+  config.security = {
+    csrf: {
+      enable: false
+    }
+  }
+
   config.cors = {
     origin: '*',
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
