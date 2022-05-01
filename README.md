@@ -1,6 +1,6 @@
 # egg-login
 
-egg-login
+Egg.js 登录注册后端程序
 
 ## QuickStart
 
@@ -11,16 +11,16 @@ see [egg docs][egg] for more detail.
 ### Development
 
 ```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
+npm i
+npm run dev
+open http://localhost:7001/
 ```
 
 ### Deploy
 
 ```bash
-$ npm start
-$ npm stop
+npm start
+npm stop
 ```
 
 ### npm scripts
