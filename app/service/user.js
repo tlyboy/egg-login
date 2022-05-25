@@ -40,7 +40,7 @@ class UserService extends Service {
   }
 
   async register(userName, password, email) {
-    const { ctx, app } = this
+    const { app } = this
 
     if (!userName || !password || !email) {
       return {
