@@ -2,7 +2,7 @@
   "name": "egg-login",
   "version": "1.0.0",
   "private": true,
-  "description": "🥚 Egg.js 登录注册后端程序",
+  "description": "Egg 登录注册后端程序",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tlyboy/egg-login.git"
