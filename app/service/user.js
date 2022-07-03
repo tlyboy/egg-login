@@ -16,10 +16,7 @@ class UserService extends Service {
     const findOneRes = await ctx.model.User.findOne({ userName })
 
     if (findOneRes) {
-      if (
-        userName === findOneRes.userName &&
-        password === findOneRes.password
-      ) {
+      if (userName === findOneRes.userName && password === findOneRes.password) {
         const token = app.jwt.sign({ userName }, app.config.jwt.secret)
 
         return {
