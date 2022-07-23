@@ -1,3 +1,4 @@
 logs/
 run/
 typings/
+pnpm-lock.yaml
